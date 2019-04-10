@@ -1,5 +1,3 @@
 FROM ubuntu:latest
-RUN apk update && \
-apk add curl && \
-apk add git && \
-apk add vim
+apt-get install git
+git --version
